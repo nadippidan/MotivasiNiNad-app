@@ -1,3 +1,4 @@
+alert("Script jalan!");
 const quotes = [
   "Tugas memang banyak, tapi kamu lebih kuat dari itu.",
   "Ujian hanyalah langkah kecil menuju impian besar.",
