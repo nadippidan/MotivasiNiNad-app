@@ -2,36 +2,44 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aplikasi Motivasi Sekolah — Nadhif & Niko</title>
+  <title>Aplikasi Motivasi Sekolahmu</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <div class="card">
+  <div class="container">
+
     <h1>🎓 Welcome to Aplikasi Motivasi Sekolahmu!</h1>
 
-    <div class="creator">
-      <p><strong>Website ini dibuat oleh :</strong></p>
-      <p>- Muhammad Nadhif Rabbani</p>
-      <p>- Niko Dwi Saputro</p>
-    </div>
+    <p class="creator">
+      Website ini dibuat oleh : <br>
+      - Muhammad Nadhif Rabbani <br>
+      - Niko Dwi Saputro
+    </p>
 
-    <div class="desc">
-      Di aplikasi ini, kamu bisa mendapat berbagai motivasi random 
+    <p class="desc">
+      Di aplikasi ini, kamu bisa mendapat berbagai motivasi random dan juga ruang curhat
       yang bisa membuat hari-harimu di sekolah jadi lebih semangat!
+    </p>
+
+    <div class="motivasi-box">
+      <p id="motivasiText">Klik tombol di bawah untuk mendapatkan motivasi 🚀</p>
     </div>
 
-    <div class="quote-box">
-      <p id="quote">Klik tombol di bawah untuk mendapatkan motivasi ✨</p>
+    <button id="btn">✨ Kasih Motivasi</button>
+
+    <hr>
+
+    <h2>💬 Ruang Curhat Siswa</h2>
+
+    <textarea id="curhatInput" placeholder="Tulis curhatanmu di sini..."></textarea>
+
+    <button id="curhatBtn">Kirim Curhat</button>
+
+    <div class="response-box">
+      <p id="responseText">Balasan akan muncul di sini...</p>
     </div>
 
-    <button id="btn">Kasih Motivasi 🚀</button>
-
-    <div class="counter">
-      Total Motivasi Dibuka: <span id="count">0</span>
-    </div>
   </div>
 
   <script src="script.js"></script>
