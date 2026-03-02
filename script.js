@@ -48,5 +48,3 @@ button.addEventListener("click", function() {
 
     quoteText.style.opacity = 1;
   }, 300);
-
-});
